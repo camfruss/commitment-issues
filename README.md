@@ -1,5 +1,5 @@
 # Commitment Issues?
-Using GitHub's contribution heatmap for something actually meaningful
+Using GitHub's contribution heatmap for something else...
 
 ## Overview
 On the rare occassions I duscuss coding with non-developers, their first instant is usually to ask about "size". Lines of code can be a meaninful metric — especially when starting new projects — but it favors commits over meaningful contributions. Yet, GitHub's contribution heatmap that lives on everyone's profile does little encourage quality over quantity...in fact, it encourages quantity above all else. As such, this project prevents an unreliable metric from being used.
