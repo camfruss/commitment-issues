@@ -7,7 +7,7 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>$HOME/git/commitment-issues/commit.sh</string>
+        <string>/Users/camfruss/git/commitment-issues/commit.sh</string>
     </array>
 
 	<key>KeepAlive</key>
