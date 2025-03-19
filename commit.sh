@@ -3,7 +3,7 @@
 REPO="$HOME/git/commitment-issues"
 cd ${REPO}
 
-FILE="log.txt"
+FILE="out.log"
 if [[ -f "$FILE" ]]; then
 	rm "$FILE"
 fi
@@ -34,7 +34,7 @@ UV_MAX=$(printf "%.0f" "$UV_MAX")
 for i in $(seq 1 ${UV_MAX});
 do
 	echo "Commit $i on $DATE" >> "$FILE"
-	git commmit -a -m "Updates for $DATE"
+	git commit -a -m "Updates for $DATE"
 done
 
 git push -u origin main
