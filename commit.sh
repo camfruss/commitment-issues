@@ -31,7 +31,7 @@ fi
 UV_MAX=$(printf "%.0f" "$UV_MAX")
 
 # Make UV_MAX commits
-for i in $(seq 1 2); #${UV_MAX});
+for i in $(seq 1 ${UV_MAX});
 do
 	echo "Commit $i on $DATE" >> "$FILE"
 	git commit -a -m "Updates for $DATE"
